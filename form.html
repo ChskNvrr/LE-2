@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html lang = en>
+    <head>
+
+        <link href = "design.css" rel = "stylesheet">
+
+        <title>Form</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <link rel = "preconnect" href="https://fonts.gstatic.com">
+        <link href = "https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+        <link rel = "preconnect" href="https://fonts.gstatic.com">
+        <link href = "https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id = "main">
+            <div class = "home">
+                <h1 style = "text-align: center; font-size: 20px; font-family: 'Sen', sans-serif";>
+                    <a href = "home.html" target="_self"; style = "color: #ffffff; ">Home</a>
+                    <a href = "floorplan.html" target="_self"; style = "color: #ffffff;" >Floor Plan</a>
+                    <a href = "form.html" target="_self"; style = "color: #ffffff;">Form</a> </br>
+                </h1>
+
+            <h2 style ="text-align: center; font-size: 40px; font-family: 'Poiret One', cursive;
+            background-image: url('css/beji.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-size: 100%;
+            padding: 20%;";>FORM SIGNING</h2>
+            </div>
+        </div>
+
+        <div id = "formhere">
+
+            <form>
+
+                <div class = "info">
+                    
+                    <fieldset>
+
+                        <legend>Applicant Information</legend>  </br> 
+                        
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname">
+
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname">
+
+                        <label for="mname">Middle Name:</label>
+                        <input type="text" id="mname" name="mname"> </br> </br>
+
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday"> </br> </br>
+
+                        <label for="address">Applicant's Address:</label>
+                        <input type="text" id="address" name="address"> </br> </br>
+
+                        <label for="gender">Gender:</label> </br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label> </br> </br>
+
+                        <label for="civilStatus">Civil Status:</label> </br>
+                        <input type="radio" id="single" name="civilStatus" value="single">
+                        <label for="single">Single</label>
+
+                        <input type="radio" id="married" name="civilStatus" value="married">
+                        <label for="married">Married</label>
+
+                        <input type="radio" id="widowed" name="civilStatus" value="widowed">
+                        <label for="widowed">Widowed</label>
+                        
+                        <input type="radio" id="other" name="civilStatus" value="other">
+                        <label for="other">Other</label> </br> </br>
+
+                    </fieldset>
+
+                </div>
+
+                <div class = "contact">
+
+                    <fieldset>
+
+                        <legend>Contact Information</legend>  </br> 
+
+                        <label for="contactnum">Cellphone Number:</label>
+                        <input type="text" id="contactnum" name="contactnum"> </br> </br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">  </br> </br>
+
+                        <label for="telenum">Telephone Number:</label>
+                        <input type="text" id="telenum" name="telenum"> </br> </br>
+
+                    </fieldset>
+
+                </div>  
+
+                <div class = "preference">
+
+                    <fieldset>
+
+                        <legend>House Preference</legend> </br> 
+
+                        <label for="location">House Locaton Preference:</label>                     
+                        <select id="location" name="location">
+                        <option value="beachfront">Beach Front</option>
+                        <option value="urban">Urban</option>
+                        <option value="rural">Rural</option>
+                        <option value="others">Others</option>
+                        </select>  </br> </br>
+
+                        <label for="pets">Do you have any pets:</label>                     
+                        <select id="pets" name="pets">
+                        <option value="none">None</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        </select>  </br> </br>
+
+                        <label for="adults">How many adults:</label>                     
+                        <select id="adults" name="adults">
+                        <option value="1-2">1 - 2</option>
+                        <option value="3-4">3 - 4</option>
+                        <option value="5-6">5 - 6</option>
+                        <option value="6+">6+</option>
+                        </select>  </br> </br>
+
+                        <label for="children">How many children:</label>                     
+                        <select id="children" name="children">
+                        <option value="none">None</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3+">3+</option>
+                        </select>  </br> </br>
+
+                        <label for="transpo">Transportation Owned:</label> </br>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1">Bike</label> </br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2">Car</label> </br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Van">
+                        <label for="vehicle3">Van</label> </br>
+                        <input type="checkbox" id="vehicle4" name="vehicle4" value="Others">
+                        <label for="vehicle4">Others</label> </br></br>
+
+                        <label for="transpo">What kind of property are you interested in:</label> </br>
+                        <input type="checkbox" id="property1" name="property1" value="Condominiums">
+                        <label for="property1">Condominiums</label> </br>
+                        <input type="checkbox" id="property2" name="property2" value="Single Family Homes">
+                        <label for="property2">Single Family Homes</label> </br>
+                        <input type="checkbox" id="property3" name="property3" value="Townhouses">
+                        <label for="property3">Townhouses</label> </br>
+                        <input type="checkbox" id="property4" name="property4" value="Others">
+                        <label for="property4">Others</label> </br>
+
+                    </fieldset>
+
+                </div>
+
+                <div class = "payment">
+
+                    <fieldset>
+
+                        <legend>Payment / Income Information</legend>
+
+                        <label for="income">Income Monthly:</label> </br>
+                        <input type="radio" id="Php 20,000.00 - Php 50,000.00" name="income" value="Php 20,000.00 - Php 50,000.00">
+                        <label for="Php 20,000.00 - Php 50,000.00">Php 20,000.00 - Php 50,000.00</label> 
+
+                        <input type="radio" id="Php 60,000.00 - Php 80,000.00" name="income" value="Php 60,000.00 - Php 80,000.00">
+                        <label for="Php 60,000.00 - Php 80,000.00">Php 60,000.00 - Php 80,000.00</label> </br>
+
+                        <input type="radio" id="Php 90,000.00 - Php 110,000.00" name="income" value="Php 90,000.00 - Php 110,000.00">
+                        <label for="Php 90,000.00 - Php 110,000.00">Php 90,000.00 - Php 110,000.00</label>
+                        
+                        <input type="radio" id="Php 120,000.00+" name="income" value="Php 120,000.00+">
+                        <label for="Php 120,000.00+">Php 120,000.00+</label> </br> </br>
+
+                        <label for="paymentMethod">Choose a payment method:</label>
+                        <input list = "paymentMethods" name = "paymentMethod" id = "paymentMethod">
+                        <datalist id = "paymentMethods">
+                        <option value="Credit Card">Credit Card</option>
+                        <option value="Debit Card">Debit Card</option>
+                        <option value="Bank Transfer">Bank Transfer</option>
+                        <option value="Cash">Cash</option>
+                        <option value="Other">Other</option>
+                        </datalist> </br> </br>
+
+                        <label for="years">Years to Pay:</label>
+                        <input type="number" id="years" name="years" min="1" max="10">
+
+                    </fieldset>
+
+                </div>
+
+                <div class = "review">
+
+                    <fieldset>
+
+                        <legend>Reviews</legend> </br>
+
+                        <label for="Please Leave A Review:">Please Leave A Review:</label> </br>
+                        <textarea id="Please Leave A Review:" name="Please Leave A Review:" rows="5" cols="80">
+                        </textarea> </br> </br>
+
+                        <label for="Special Instructions For The Property:">Special Instructions For The Property:</label> </br>
+                        <textarea id="Special Instructions For The Property:" name="Special Instructions For The Property:" rows="5" cols="80">
+                        </textarea> </br> </br>
+
+                        <label for="gsearch">Search For Other Houses:</label>
+                        <input type="search" id="hsearch" name="hsearch"> </br> </br>
+
+                    </fieldset>
+
+                </div>
+
+            </br> </br> 
+
+                <div class = "buttons">
+
+                </br> 
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </br> </br> 
+
+                </div>
+
+            </form>
+
+        </div>
+
+        <footer>
+            <p>
+                Francesca Jacinthe C. Navarro - IT130L - OL161
+            </p>
+        </footer>
+
+
+
+        
+    </head>
+</html>

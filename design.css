@@ -1,0 +1,94 @@
+body {
+	background-color:rgb(250, 229, 202);
+    margin-left: .1cm;
+    margin-right: .1cm;
+	padding: 0;
+}
+
+#main {
+	padding: 0;
+}
+
+.info,
+.contact,
+.preference,
+.payment,
+.review {
+	font-size: 20px;
+	font-family:'Courier New', Courier, monospace;
+	font-style: normal;
+	color: #ffffff;
+	margin-left: 1in;
+	margin-right: 1in;
+	font-weight: bold;
+}
+
+#formhere{
+	background-color: #806b4d;
+}
+
+img {
+    display: inline;
+  	
+}
+
+h1 {
+    color: #ffffff;
+	background-color: #cca263;
+	font-size: 60px;
+	line-height: 60px;
+	margin: 0;
+	padding: 10px;
+}
+
+h3 {
+    color: #000000;
+    font-size: 50px;
+}
+
+p.beginning,
+p.second,
+p.last,
+p.house1,
+p.house2,
+p.house3 {
+    color: #000000;
+	font-size: 18px;
+    text-align: center;
+}
+
+li{
+    text-align: center;
+	font-family: arial;
+	color: #000000;
+	font-size: 20px;
+}
+
+a{
+	text-align: center;
+	font-family: arial;
+	color: #000000;
+	font-size: 20px;
+}
+
+a:hover {
+	text-decoration: underline;
+  }
+
+
+.buttons{
+	text-align: center;
+	padding: 10px;
+	background-color: ivory;
+}
+
+footer{
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+	background-color: black;
+	padding: 10px;
+}
+
+
